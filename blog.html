@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog de Tecnología - Soporte Técnico</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .header {
+      background-color: #900;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 250px;
+      margin-right: 15px;
+    }
+
+    .header p {
+      font-size: 16px;
+    }
+
+    .navbar {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      text-align: center;
+    }
+
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+    .blog-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .blog-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.4s, box-shadow 0.4s;
+      cursor: pointer;
+    }
+
+    .blog-card:hover {
+      transform: scale(1.05) rotate(1deg);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    .blog-card h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #900;
+    }
+
+    .blog-card p {
+      font-size: 1em;
+      line-height: 1.5;
+      color: #555;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="Captura de pantalla 2025-01-12 163339.png" alt="Logo de la tienda">
+            </div>
+            <p>Bienvenidos a la Megatienda de tecnología</p>
+        </div>
+    </header>
+
+
+    <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="productos.html">Productos</a>
+        <a href="colecciones.html">Colecciones</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+
+    <section class="blog-section">
+      <article class="blog-card">
+        <h2>¿Qué es el Soporte Técnico?</h2>
+        <p>El soporte técnico brinda asistencia a usuarios y empresas en la solución de problemas de software, hardware y redes.</p>
+      </article>
+
+      <article class="blog-card">
+        <h2>5 Tips para Mantener tu PC Rápida</h2>
+        <p>Desde la limpieza interna hasta el uso de software ligero, descubre cómo mejorar el rendimiento de tu computadora.</p>
+      </article>
+
+      <article class="blog-card">
+        <h2>¿Vale la pena actualizar a Windows 11?</h2>
+        <p>Exploramos las ventajas, novedades y si tu equipo está preparado para el salto a la nueva versión de Windows.</p>
+      </article>
+
+      <article class="blog-card">
+        <h2>Backup: Tu mejor seguro digital</h2>
+        <p>Aprende cómo realizar copias de seguridad y protege tu información ante cualquier accidente tecnológico.</p>
+      </article>
+    </section>
+
+</body>
+</html>
